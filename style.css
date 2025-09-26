@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Jumpman';
+    src: url(fonts/Jumpman.ttf);
+}
+
+body {
+    background-color: rgb(247, 241, 171);
+}
+
+h1, h2 {
+    font-family: 'Jumpman', Calibri;
+    font-size: 32px;
+    color: navy;
+    font-weight: normal;
+}
+
+.name-cont h1 {
+    font-size: 32px;
+    top: 17.5%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    position: absolute;
+}
+
+h2 {
+    font-size: 25px;
+    font-style: italic;
+    text-align: center; 
+    display: block;    
+    width: 100%; 
+    margin: 15px auto 0 auto;
+}
+
+
+.name-cont {
+    position: relative;
+    text-align: center;
+}
+
+.name-cont h1,
+.name-cont img {
+    display: inline-block;
+}
+
+.gif-cont {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    padding-left: -50%;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 5rem 5rem;
+    color: navy;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 25px;
+    margin: 30px auto;
+    border: 5px solid black;
+    max-width: 750px;
+    background-color: rgb(199, 153, 84);
+}
+
+.gif-cont img,
+.container img {
+    border: 8px ridge rgb(56, 12, 3);
+}
+
+.container img {
+    display: block;
+    margin: 0 auto;
+}
+
+.container h1,
+.container h3 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+.text-box {
+    border: 5px groove goldenrod;
+    background-color: antiquewhite;
+    padding: 15px; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    border-radius: 8px; 
+}
